@@ -1,0 +1,24 @@
+4.11
+	Dividing two integers results in integer division, and
+	any fractional part of the calculation will be truncated(lost).
+	To fix this problem, i need to put double instead of int. 
+	for example 
+	
+	double x = 1.0 / 3;  instead of int x = 1.0/ 3;
+	or
+	double x = 1.0 / 3.0;  instead of int x = 1.0 / 3.0;
+
+4.15
+
+	a. Else
+		System.out.println ( " Age is less than 65");
+
+	b.int total = 0; 
+	  int x =1;
+
+	c. while (x <= 100)
+		{ total += x;
+		++x; }
+	d. while (y>0)
+		{++y;
+		System.out.println(y);}
