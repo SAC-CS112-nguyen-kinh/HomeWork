@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class calculator {
+	public static void main(String[] args){
+		Scanner Kinh = new Scanner(System.in);
+		double first, second,answer;
+		System.out.println("Enter first number:  ");
+		first = Kinh.nextDouble();
+		System.out.println("Enter second number:  ");
+		second = Kinh.nextDouble();
+		answer = first + second;
+		
+		System.out.println(answer);
+		
+		
+	}
+	
+}
