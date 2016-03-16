@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class calculator{
+
+public static void main (String args[]) {
+
+    Scanner userInput = new Scanner(System.in);
+
+    String operator;
+    double num1,num2,answer = 0;
+
+
+
+    System.out.println("Enter first number: ");
+    num1 = userInput.nextDouble();
+
+    System.out.println("Enter operator: ");
+    operator = userInput.next();
+
+
+    System.out.println("Enter second number: ");
+    num2 = userInput.nextDouble();
+
+    if (operator.equals ("+")){
+        answer = num1 + num2;
+    }
+    else if (operator.equals ("-")){
+        answer = num1 - num2;
+    }
+    else if (operator.equals ("*")){
+        answer = num1 * num2;
+    }
+    else if (operator.equals ("/")){
+            answer = num1 / num2;
+    }
+
+    System.out.print(num1);
+    System.out.print(" " + operator);
+    System.out.print(" " + num2);
+
+    System.out.print(" =" + answer);
+}
+
+}
